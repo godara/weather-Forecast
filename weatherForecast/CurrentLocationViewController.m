@@ -42,7 +42,7 @@
 {
     [self.navigationController setNavigationBarHidden:NO];
     CLLocationCoordinate2D noLocation = mapViewCurrent.userLocation.location.coordinate;
-    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(noLocation, 2000, 2000);
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(noLocation, 50000, 50000);
     MKCoordinateRegion adjustedRegion = [self.mapViewCurrent regionThatFits:viewRegion];
     [self.mapViewCurrent setRegion:adjustedRegion animated:YES];
     self.mapViewCurrent.showsUserLocation = YES;
