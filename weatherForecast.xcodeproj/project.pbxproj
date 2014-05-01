@@ -20,7 +20,6 @@
 		880A4891190F806E00679C00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880A4870190F806E00679C00 /* UIKit.framework */; };
 		880A4899190F806E00679C00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 880A4897190F806E00679C00 /* InfoPlist.strings */; };
 		880A489B190F806E00679C00 /* weatherForecastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 880A489A190F806E00679C00 /* weatherForecastTests.m */; };
-		880A48A5190F81C700679C00 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880A48A4190F81C700679C00 /* ViewController.xib */; };
 		883B27E7190FA61E008CEC2A /* ForecastTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883B27E5190FA61E008CEC2A /* ForecastTableViewController.m */; };
 		883B27E8190FA61E008CEC2A /* ForecastTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 883B27E6190FA61E008CEC2A /* ForecastTableViewController.xib */; };
 		883B27F6190FB434008CEC2A /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 883B27F3190FB434008CEC2A /* SVProgressHUD.bundle */; };
@@ -31,6 +30,7 @@
 		88A647C0191212A9003D53EF /* CurrentLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A647BE191212A9003D53EF /* CurrentLocationViewController.xib */; };
 		88A647C3191213D3003D53EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A647C2191213D3003D53EF /* CoreLocation.framework */; };
 		88A647C5191213FC003D53EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A647C4191213FC003D53EF /* MapKit.framework */; };
+		88A647CC19126452003D53EF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A647CB19126452003D53EF /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,6 @@
 		880A4896190F806E00679C00 /* weatherForecastTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "weatherForecastTests-Info.plist"; sourceTree = "<group>"; };
 		880A4898190F806E00679C00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		880A489A190F806E00679C00 /* weatherForecastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherForecastTests.m; sourceTree = "<group>"; };
-		880A48A4190F81C700679C00 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
 		883B27E4190FA61E008CEC2A /* ForecastTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastTableViewController.h; sourceTree = "<group>"; };
 		883B27E5190FA61E008CEC2A /* ForecastTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastTableViewController.m; sourceTree = "<group>"; };
 		883B27E6190FA61E008CEC2A /* ForecastTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForecastTableViewController.xib; sourceTree = "<group>"; };
@@ -79,6 +78,7 @@
 		88A647C2191213D3003D53EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		88A647C4191213FC003D53EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		88A647C819122878003D53EF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		88A647CB19126452003D53EF /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,7 +212,7 @@
 				883B27E6190FA61E008CEC2A /* ForecastTableViewController.xib */,
 				880A4884190F806E00679C00 /* ViewController.h */,
 				880A4885190F806E00679C00 /* ViewController.m */,
-				880A48A4190F81C700679C00 /* ViewController.xib */,
+				88A647CB19126452003D53EF /* ViewController.xib */,
 				88A647BC191212A9003D53EF /* CurrentLocationViewController.h */,
 				88A647BD191212A9003D53EF /* CurrentLocationViewController.m */,
 				88A647BE191212A9003D53EF /* CurrentLocationViewController.xib */,
@@ -296,10 +296,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A647CC19126452003D53EF /* ViewController.xib in Resources */,
 				883B27F6190FB434008CEC2A /* SVProgressHUD.bundle in Resources */,
 				880A4888190F806E00679C00 /* Images.xcassets in Resources */,
 				883B27FC190FB569008CEC2A /* ForecastTableViewCell.xib in Resources */,
-				880A48A5190F81C700679C00 /* ViewController.xib in Resources */,
 				883B27E8190FA61E008CEC2A /* ForecastTableViewController.xib in Resources */,
 				88A647C0191212A9003D53EF /* CurrentLocationViewController.xib in Resources */,
 				880A4877190F806E00679C00 /* InfoPlist.strings in Resources */,
